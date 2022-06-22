@@ -42,12 +42,12 @@ public class WorkerResource {
 		 *throw new RuntimeException("Test");
 		 */
 		
-		/*try {
+		try {
 			Thread.sleep(3000L);
 		} catch (InterruptedException e) {
 			// TODO: handle exception
 			e.printStackTrace();
-		}*/
+		}
 		
 		logger.info("PORT = " + env.getProperty("local.server.port"));
 		
